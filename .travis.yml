@@ -4,7 +4,7 @@ go:
 env:
 - GO111MODULE=on
 script:
-- go build .
+- go build src/pkg/artifactory/
 deploy:
   provider: releases
   skip_cleanup: true  
